@@ -1,0 +1,104 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Custom CSS Variables */
+:root {
+  --primary: #3B82F6;
+  --primary-dark: #2563EB;
+  --secondary: #8B5CF6;
+  --secondary-dark: #7C3AED;
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Utilities */
+.text-primary {
+  color: var(--primary);
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.text-secondary {
+  color: var(--secondary);
+}
+
+.bg-secondary {
+  background-color: var(--secondary);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-dark);
+}
+
+/* Selection Color */
+::selection {
+  background-color: var(--primary);
+  color: white;
+}
+
+/* Responsive Typography */
+@media (max-width: 640px) {
+  .text-responsive-4xl {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  
+  .text-responsive-5xl {
+    font-size: 2.5rem;
+    line-height: 1.1;
+  }
+}
+
+/* Custom Focus Styles */
+.focus-ring-primary:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+/* Glass Morphism Effect */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glass-dark {
+  background: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Navigation Active State */
+.nav-active {
+  position: relative;
+}
+
+.nav-active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: var(--primary);
+}
