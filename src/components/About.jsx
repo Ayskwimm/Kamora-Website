@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Button from './Button';
-import { FaAward, FaUsers, FaLightbulb, FaTarget } from 'react-icons/fa';
+import { FaAward, FaUsers, FaLightbulb, FaBullseye } from 'react-icons/fa';
 
 /**
  * About Section Component
@@ -12,7 +12,7 @@ const About = () => {
     { icon: FaAward, number: '50+', label: 'Industry Awards' },
     { icon: FaUsers, number: '10,000+', label: 'Happy Clients' },
     { icon: FaLightbulb, number: '500+', label: 'Innovative Solutions' },
-    { icon: FaTarget, number: '99.9%', label: 'Success Rate' }
+    { icon: FaBullseye, number: '99.9%', label: 'Success Rate' }
   ];
 
   const values = [
@@ -84,7 +84,7 @@ const About = () => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               {/* Placeholder for image */}
-              <div className="bg-gradient-to-br from-primary to-secondary h-96 lg:h-full min-h-[400px] flex items-center justify-center">
+              <div className="bg-gradient-to-br from-blue-600 to-purple-600 h-96 lg:h-full min-h-[400px] flex items-center justify-center">
                 <div className="text-white text-center p-8">
                   <div className="text-6xl font-bold mb-4">K</div>
                   <div className="text-xl">Kamora Team</div>

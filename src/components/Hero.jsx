@@ -46,9 +46,9 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-blue-600">
       {/* Background Gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary-dark to-secondary" />
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-600 via-blue-700 to-purple-600" />
       
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">

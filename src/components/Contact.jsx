@@ -417,7 +417,7 @@ const Contact = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
               viewport={{ once: true }}
-              className="bg-gradient-to-br from-primary to-secondary rounded-lg p-6 text-white"
+              className="bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg p-6 text-white"
             >
               <h4 className="text-xl font-semibold mb-4">Business Hours</h4>
               <div className="space-y-2">

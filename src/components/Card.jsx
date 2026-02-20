@@ -21,7 +21,7 @@ const Card = ({
     default: 'bg-white border border-gray-200',
     dark: 'bg-gray-800 text-white border border-gray-700',
     primary: 'bg-primary text-white',
-    gradient: 'bg-gradient-to-br from-primary to-secondary text-white',
+    gradient: 'bg-gradient-to-br from-blue-600 to-purple-600 text-white',
     glass: 'bg-white bg-opacity-10 backdrop-blur-lg border border-white border-opacity-20'
   };
 

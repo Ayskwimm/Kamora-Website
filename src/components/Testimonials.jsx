@@ -160,7 +160,7 @@ const Testimonials = () => {
                 <div className="flex flex-col md:flex-row items-center md:items-start gap-8">
                   {/* Avatar */}
                   <div className="flex-shrink-0">
-                    <div className="w-20 h-20 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center text-white text-2xl font-bold">
+                    <div className="w-20 h-20 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center text-white text-2xl font-bold">
                       {testimonials[currentIndex].avatar}
                     </div>
                   </div>
@@ -259,7 +259,7 @@ const Testimonials = () => {
               className="bg-white rounded-lg p-6 shadow-lg"
             >
               <div className="flex items-center mb-4">
-                <div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-full flex items-center justify-center text-white font-bold mr-3">
+                <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center text-white font-bold mr-3">
                   {testimonial.avatar}
                 </div>
                 <div>
